@@ -5,7 +5,8 @@ A quick reference guide to useful commands in linux terminal and git version con
 
 * Search for word in directory: `grep -rn “word”`. `-r` for recursive, `-n` for line numbers
 * Create tar archive file: `tar -cvf <NameofArchiveFile>.tar /Directory/to/archive`
-* Untar files: `tar -xvf <NameofArchiveFile>.tar` OR `tar -xvf <NameofArchiveFile>.tar -C /Directory/to/untar`
+* Untar files in current directory: `tar -xvf <NameofArchiveFile>.tar` 
+* Untar files in specific directory:`tar -xvf <NameofArchiveFile>.tar -C /Directory/to/untar`
 
 ## Useful Git commands
 
