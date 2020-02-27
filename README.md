@@ -8,6 +8,7 @@ A quick reference guide to useful commands in linux terminal and git version con
 * Create tar archive file: `tar -cvf <NameofArchiveFile>.tar /Directory/to/archive`
 * Untar files in current directory: `tar -xvf <NameofArchiveFile>.tar` 
 * Untar files in specific directory:`tar -xvf <NameofArchiveFile>.tar -C /Directory/to/untar`
+* Find a file in a directory: `find -name *<part_of_filename>*`
 
 ## Useful Git commands
 
